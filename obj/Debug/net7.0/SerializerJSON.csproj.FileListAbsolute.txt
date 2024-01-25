@@ -1,0 +1,15 @@
+C:\SerializerJSON\bin\Debug\net7.0\SerializerJSON.exe
+C:\SerializerJSON\bin\Debug\net7.0\SerializerJSON.deps.json
+C:\SerializerJSON\bin\Debug\net7.0\SerializerJSON.runtimeconfig.json
+C:\SerializerJSON\bin\Debug\net7.0\SerializerJSON.dll
+C:\SerializerJSON\bin\Debug\net7.0\SerializerJSON.pdb
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.csproj.AssemblyReference.cache
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.AssemblyInfoInputs.cache
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.AssemblyInfo.cs
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.csproj.CoreCompileInputs.cache
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.dll
+C:\SerializerJSON\obj\Debug\net7.0\refint\SerializerJSON.dll
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.pdb
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.genruntimeconfig.cache
+C:\SerializerJSON\obj\Debug\net7.0\ref\SerializerJSON.dll
