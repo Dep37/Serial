@@ -16,7 +16,8 @@ using System.Collections.Generic;
                  Root? events = JsonSerializer.Deserialize<Root>(jsonString)!;
 
               for (int i = 0; i < events.events.Count; i++)
-                  Console.WriteLine($"Code: {events?.events[i].code} timestamp: {events?.events[i].timestamp} names: {events?.events[i].names} cheater: {events?.events[i].cheater} payments: {events?.events[i].payments}");
+                  Console.WriteLine($"Code: {events?.events[i].GetType()} timestamp: {events?.events[i]}");
+                  //names: {events?.events[i].ev.names} cheater: {events?.events[i].ch.cheater} payments: {events?.events[i].vp.payments}");
                     
             }
          }
