@@ -13,3 +13,5 @@ C:\SerializerJSON\obj\Debug\net7.0\refint\SerializerJSON.dll
 C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.pdb
 C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.genruntimeconfig.cache
 C:\SerializerJSON\obj\Debug\net7.0\ref\SerializerJSON.dll
+C:\SerializerJSON\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\SerializerJSON\obj\Debug\net7.0\SerializerJSON.csproj.CopyComplete

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YipcxAJz1GjedwWD+GnLxKKNNUSLWWJSZzXwahPtxgKcFMB9gfv7ymjsfHp/8Ue2DedjzZ59UXnRPjrJ/pRjNw==",
+  "dgSpecHash": "XoSBJt+lK0cokHIujVYzPHT5hvq8vly/PNf4jqIBhcDgjay0z0rgBmUjbZISAe2ihvXgnjVrD0caW5nWpwnKFw==",
   "success": true,
   "projectFilePath": "C:\\SerializerJSON\\SerializerJSON.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Дмитрий\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
