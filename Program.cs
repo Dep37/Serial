@@ -20,14 +20,14 @@ using System.Collections.Generic;
                  {
                     WriteIndented = true
                  };
-                 object[]? events = JsonSerializer.Deserialize<object[]>(jsonString);
+                 Event? events = JsonSerializer.Deserialize<Event>(jsonString);
 
               // for (int i = 0; i < events.Length; i++)
                    //Console.WriteLine($"Code: {events?[i].code} timestamp: {events?[i].timestamp}");
                   //names: {events?.events[i].ev.names} cheater: {events?.events[i].ch.cheater} payments: {events?.events[i].vp.payments}");
               using (FileStream fs = new FileStream("user.json", FileMode.OpenOrCreate))
                 {
-                    JsonSerializer.SerializeAsync<object[]>(fs, events, options);
+                    JsonSerializer.SerializeAsync(fs, events, options);
                 }      
                 
             }

@@ -1,22 +1,45 @@
-[
-  {
-    "code": "tr",
-    "timestamp": 1691408464
-  },
-  {
-    "code": "pr",
-    "timestamp": 1691408465
-  },
-  {
-    "code": "ev",
-    "timestamp": 1691408463
-  },
-  {
-    "code": "ch",
-    "timestamp": null
-  },
-  {
-    "code": "vp",
-    "timestamp": 1691408467
-  }
-]
+{
+  "events": [
+    {
+      "code": "tr",
+      "step": "1",
+      "timestamp": 1691408464
+    },
+    {
+      "code": "pr",
+      "payment": {
+        "currency": "USD",
+        "value": 9.99
+      },
+      "timestamp": 1691408465
+    },
+    {
+      "code": "ev",
+      "names": [
+        "start",
+        "idle",
+        "finish"
+      ],
+      "timestamp": 1691408463
+    },
+    {
+      "code": "ch",
+      "cheater": true,
+      "timestamp": null
+    },
+    {
+      "code": "vp",
+      "payments": [
+        {
+          "currency": "Primogems",
+          "value": 160
+        },
+        {
+          "currency": "Genesis Crystals",
+          "value": 5
+        }
+      ],
+      "timestamp": 1691408467
+    }
+  ]
+}
