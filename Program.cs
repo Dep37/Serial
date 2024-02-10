@@ -22,9 +22,34 @@ using System.Collections.Generic;
                  };
                  Event? events = JsonSerializer.Deserialize<Event>(jsonString);
 
-              // for (int i = 0; i < events.Length; i++)
-                   //Console.WriteLine($"Code: {events?[i].code} timestamp: {events?[i].timestamp}");
-                  //names: {events?.events[i].ev.names} cheater: {events?.events[i].ch.cheater} payments: {events?.events[i].vp.payments}");
+                for (int i = 0; i < events.LenghtEv(); i++)
+                {
+                    Console.WriteLine(events.indexEv(i).GetType());
+                }
+
+              for (int i = 0; i < events.LenghtEv(); i++)
+                {
+                   Console.WriteLine($"Code: {events.typeEv(i)} timestamp: {events.indexEv(i).timestamp}");
+                    switch(events.typeEv(i).ToString())
+                    {
+                     case "serial.Tr":
+                         Console.WriteLine($"Code: Tr, Step: ");
+                         break;
+                     case  "serial.Ch":
+                         Console.WriteLine($"Code: Ch, Cheater: ");
+                         break;
+                     case "serial.Ev":
+                         Console.WriteLine($"Code: Ev, Names: ");
+                         break;
+                     case "serial.Pr":
+                         Console.WriteLine($"Code: Pr, Payment: ");
+                         break;
+                     case "serial.Vp":
+                         Console.WriteLine($"Code: Vp; Payments: ");
+                         break;
+                    }
+                }
+
               using (FileStream fs = new FileStream("user.json", FileMode.OpenOrCreate))
                 {
                     JsonSerializer.SerializeAsync(fs, events, options);
