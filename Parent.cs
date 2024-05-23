@@ -1,5 +1,7 @@
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+
 
 
 namespace serial {
@@ -11,6 +13,8 @@ namespace serial {
 [JsonDerivedType(typeof(Vp), typeDiscriminator: "vp")]
 public class Parent {
 
+    [Required]
+    [Range(1691408464,1691408470)]
     public int? timestamp { get; set; }
     
 }

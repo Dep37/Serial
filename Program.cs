@@ -3,6 +3,7 @@ using System.Text.Json;
 using System.IO;
 using System.Text;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
    
 
@@ -14,20 +15,34 @@ using System.Collections.Generic;
 
             public static void Main()
             {
-                 string user = "example.json";
-                 string jsonString = File.ReadAllText(user);
-                 var options = new JsonSerializerOptions
+                
+            string user = "example.json";
+            string jsonString = File.ReadAllText(user);
+            var options = new JsonSerializerOptions
                  {
                     WriteIndented = true
                  };
-                 Event? events = JsonSerializer.Deserialize<Event>(jsonString);
+            Event? events = JsonSerializer.Deserialize<Event>(jsonString);
 
-                for (int i = 0; i < events.LenghtEv(); i++)
+            var context = new ValidationContext(events!);
+            var results = new List<ValidationResult>();
+            if (!Validator.TryValidateObject(events!, context, results, true))
+                {
+                    Console.WriteLine("Ошибка по валидации");
+                    foreach (var error in results)
+                        {
+                            Console.WriteLine(error.ErrorMessage);
+                        }
+                }
+            else
+                Console.WriteLine("Нет ошибки по валидации");
+
+            for (int i = 0; i < events!.LenghtEv(); i++)
                 {
                     Console.WriteLine(events.indexEv(i).GetType());
                 }
 
-              for (int i = 0; i < events.LenghtEv(); i++)
+            for (int i = 0; i < events.LenghtEv(); i++)
                 {
                    Console.WriteLine($"Code: {events.typeEv(i)} timestamp: {events.indexEv(i).timestamp}");
                     switch(events.typeEv(i).ToString())

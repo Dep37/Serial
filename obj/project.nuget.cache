@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "XAcPu03NVeKPYy0uxAEe1B+IB028wy9/hETt3XYgD7z8B016SyuCLZfbieXks8VuH2c3plLEVbWCw2xI2Aq4Kg==",
+  "dgSpecHash": "Yi53vsj78JjsbDAs01eLwHrmjcqMz1zMeVr5kZ4I0IgRYNDEbfZsBUVj5nUEnFeSPBF7qdD3qgDSdJQs8VX1Pg==",
   "success": true,
-  "projectFilePath": "/home/dep37rus/Документы/GitProject/SerializerJSON.csproj",
+  "projectFilePath": "C:\\Users\\puhov\\Desktop\\SoftGIT\\Serial\\Serial\\SerializerJSON.csproj",
   "expectedPackageFiles": [
-    "/home/dep37rus/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\puhov\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\puhov\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\puhov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\puhov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\puhov\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
   ],
   "logs": []
 }
